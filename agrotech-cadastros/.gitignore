@@ -1,0 +1,24 @@
+# Maven
+target/
+.mvn/
+mvnw
+mvnw.cmd
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Credenciais — NÃO subir com senha real
+# Renomeie para application.properties e use variáveis de ambiente em produção
+src/main/resources/application.properties
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

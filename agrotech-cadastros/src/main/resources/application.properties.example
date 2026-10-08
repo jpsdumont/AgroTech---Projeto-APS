@@ -1,0 +1,24 @@
+# =============================================
+# AgroTech — Configuração (EXEMPLO)
+# Copie este arquivo para application.properties
+# e preencha com seus valores locais.
+# NÃO versione o application.properties com senha real.
+# =============================================
+
+server.port=8080
+
+spring.datasource.url=jdbc:mysql://localhost:3306/agrotech?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+spring.datasource.username=root
+spring.datasource.password=SUA_SENHA_AQUI
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# Chave secreta JWT (mínimo 256 bits — use uma string longa e aleatória)
+jwt.secret=COLOQUE_UMA_CHAVE_SECRETA_LONGA_AQUI
+jwt.expiration=86400000
+
+logging.level.com.agrotech=DEBUG
