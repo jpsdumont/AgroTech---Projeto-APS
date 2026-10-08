@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AgroTech — Sistema de Gestão Pecuária Multi-Fazenda
 
 Sistema web para gerenciamento de fazendas e lotes de animais, com autenticação segura e suporte a múltiplos usuários.
@@ -38,3 +39,6 @@ npm run dev
 ## Documentação
 
 Veja [`SPEC.md`](./SPEC.md) para a especificação técnica completa do projeto.
+=======
+# AgroTech---Projeto-APS
+>>>>>>> origin/main
